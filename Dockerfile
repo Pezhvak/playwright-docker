@@ -12,6 +12,5 @@ RUN apt install chromium -y
 RUN mkdir -p /usr/share/app/
 WORKDIR /usr/share/app
 #RUN npm i playwright
-COPY / /usr/share/app
 
 CMD ['node', 'app/index.js']
