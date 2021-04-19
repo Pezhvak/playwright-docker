@@ -13,4 +13,4 @@ RUN mkdir -p /usr/share/app/
 WORKDIR /usr/share/app
 #RUN npm i playwright
 
-CMD ['node', 'app/index.js']
+CMD ['node']
